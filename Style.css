@@ -1,0 +1,56 @@
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    div.container{
+        border: 5px solid skyblue;
+        width: 80%;
+        margin: 0 auto 0 auto;
+    }
+    header{
+        background-color: whitesmoke;
+    }
+    .hero img{
+        width: 100%;
+    }
+    div.left, div.middle, div.right{
+        border: 3px dotted red;
+        width: 30%;
+    }
+    
+    aside img{
+        width: 100%
+    }  
+    
+    aside{
+       display: flex;
+       justify-content: space-between;
+    }
+    
+    nav{
+        background-color: beige;
+    
+    }
+    
+    ul{
+        text-align: center;
+    
+    }
+    li{
+        display: inline-block;
+        width: 200px;
+        border: 2px solid white;
+        line-height: 3em;
+        font-family: cursive;
+        font-variant: small-caps;;
+    
+    }
+    a{
+        color: rgb(231, 136, 150);
+        text-decoration: none;
+        border: 1px solid greenyellow;
+        display: block;
+    
+    }
